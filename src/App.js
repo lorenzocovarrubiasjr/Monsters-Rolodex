@@ -27,7 +27,7 @@ class App extends Component {
     const filteredContacts = contacts.filter(contact => contact.name.toLowerCase().includes(searchField.toLowerCase()))
     return (
       <div className="App">
-      <h1>Lorenzo's Contacts</h1>
+      <h1>Lorenzo's Prayer List</h1>
         <SearchBox 
           placeholder="search contacts"
           handleChange={this.handleChange}
